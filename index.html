@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Météo</title>
+</head>
+<body>
+    <video poster="Capture.png" id="bgvid" playsinline autoplay muted loop>
+       <source src="FullSizeRender.mov" type="video/mp4">
+    </video>
+    <div id="polina">
+        <h1>Météo de votre ville</h1>
+        <p>Entrez votre ville ici:<input id="queryloc" type ="text" value ="Tullins,fr" placeholder="votre ville.."><input id="valider" type="button" value="Validez" onclick="buttonClickGET()"/></p>
+        <p id="prevision"></p>
+    </div>
+ 
+/<!--<script type="text/javascript" src="script.js"></script>-->
+</body>
+</html>
